@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Grid of Cards</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script  src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="  crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <h1>Grid of Cards</h1>
+<div class="all">
+<div class="global">
+    <div class="l1">
+        <div class="flip-card" >
+            <div class="flip-card-inner 1 " onclick="check(1)" >
+                <div class="card flip-card-front">
+                    <img class='case' id="1" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(2)">
+                <div class=" card flip-card-front">
+                    <img class='case' id="2" ></img>
+                </div>
+                <div class=" card flip-card-back"></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(3)">
+                <div class="card flip-card-front">
+                    <img class='case' id="3" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(4)">
+                <div class="card flip-card-front">
+                    <img class='case' id="4"></img>
+                </div>
+                <div class=" card flip-card-back"></div>
+            </div>
+        </div>
+    </div>
+    <div class="l2">
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(5)">
+                <div class="card flip-card-front">
+                    <img class='case' id="5" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(6)">
+                <div class="card flip-card-front">
+                    <img class='case' id="6" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(7)">
+                <div class="card flip-card-front">
+                    <img class='case' id="7" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(8)">
+                <div class="card flip-card-front">
+                    <img class='case' id="8" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+    </div>
+    <div class="l3">
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(9)">
+                <div class="card flip-card-front">
+                    <img class='case' id="9" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(10)">
+                <div class="card flip-card-front">
+                    <img class='case'id="10" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(11)">
+                <div class="card flip-card-front">
+                    <img class='case' id="11" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(12)">
+                <div class="card flip-card-front">
+                    <img class='case' id="12" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+    </div>
+    <div class="l4">
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(13)">
+                <div class="card flip-card-front">
+                    <img class='case' id="13" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(14)">
+                <div class="card flip-card-front">
+                    <img class='case' id="14" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(15)">
+                <div class="card flip-card-front">
+                    <img class='case' id="15" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner" onclick="check(16)">
+                <div class="card flip-card-front">
+                    <img class='case' id="16" ></img>
+                </div>
+                <div class="card flip-card-back"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="counterr" id="score">0</div>
+</div>
+    <script src='main.js'></script>
+</body>
+</html>
